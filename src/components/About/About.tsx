@@ -107,7 +107,7 @@ function ExpertiseBullet({
 function FounderBio({ textSize = "text-[16px]" }: { textSize?: string }) {
   return (
     <div
-      className={`font-open-sans text-grey flex flex-col gap-[21px] ${textSize} leading-[1.6]`}
+      className={`font-open-sans text-grey flex flex-col gap-[19px] lg:gap-[21px] ${textSize} leading-[1.6]`}
     >
       <p>
         The visionary behind The Sarah Mandate and a global catalyst for
@@ -139,7 +139,7 @@ function FounderBio({ textSize = "text-[16px]" }: { textSize?: string }) {
 function FounderClosing({ textSize = "text-[16px]" }: { textSize?: string }) {
   return (
     <div
-      className={`font-open-sans text-grey flex flex-col gap-[21px] ${textSize} leading-[1.6]`}
+      className={`font-open-sans text-grey flex flex-col gap-[19px] lg:gap-[21px] ${textSize} leading-[1.6]`}
     >
       <p>
         Her mission is rooted in 1 Peter 2:9: empowering women to walk in
