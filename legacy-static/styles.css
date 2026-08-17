@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
+:root {
+  --color-bg: rgba(255, 248, 235, 0.5);
+  --color-purple: #8702ab;
+  --color-white: #ffffff;
+  --color-text-active: #000000;
+  --color-text-inactive: rgba(0, 0, 0, 0.7);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Marcellus", serif;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 96px;
+  padding: 0 61px 0 60px;
+  background-color: var(--color-bg);
+}
+
+.nav-bar__logo {
+  display: flex;
+  align-items: center;
+  height: 54px;
+}
+
+.nav-bar__logo img {
+  height: 100%;
+  width: auto;
+}
+
+.nav-bar__links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-bar__link {
+  padding: 2px;
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--color-text-inactive);
+  white-space: nowrap;
+}
+
+.nav-bar__link--active {
+  color: var(--color-text-active);
+}
+
+.nav-bar__cta {
+  margin-left: 24px;
+  padding: 8px 20px;
+  border: 1px solid rgba(237, 204, 246, 0.2);
+  border-radius: 6px;
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  font-size: 20px;
+  text-decoration: none;
+  white-space: nowrap;
+}

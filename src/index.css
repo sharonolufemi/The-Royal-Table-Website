@@ -1,0 +1,36 @@
+@import "tailwindcss";
+/* Lora and Open Sans are loaded via <link> tags in index.html — a CSS @import
+   here gets silently dropped because Tailwind v4's Lightning CSS bundler
+   expands "@import tailwindcss" inline, which invalidates any @import placed
+   after it (imports must precede all other rules per the CSS spec). Helvetica
+   isn't a Google Font — it's a system font stack, only truly Helvetica on
+   Mac/iOS; other platforms fall back to Arial or the default sans-serif. */
+
+@theme {
+  /* Colors — from Figma variable defs (mcp__figma__get_variable_defs) */
+  --color-main-white: #ffffff;
+  --color-main-purple: #8702ab;
+  --color-gold-10: #f5efe8;
+  --color-subtext-yellow: #ffde79;
+  --color-wine: #7d1e1e;
+  --color-grey-dark: #4b535f;
+  --color-main-gold: #9a6416;
+  --color-grey-5: #fff6e9;
+  --color-grey: #1d1d1d;
+  --color-grey-light: #4b535f;
+  --color-badge-bg: #f9eef1;
+  --color-badge-border: #ecd6f1;
+  --color-cta-hover: #ecd6f1;
+  --color-fade-grey: #676767;
+  --color-faint-underline: #ededed;
+
+  /* Fonts */
+  --font-helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-lora: "Lora", serif;
+  --font-open-sans: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-main-white);
+}
