@@ -190,7 +190,7 @@ function MobileJourney() {
             <p className="font-helvetica text-grey text-[15px] whitespace-nowrap">
               At Your Table
             </p>
-            <p className="font-open-sans text-grey-dark w-[253px] text-[12px] leading-[18px]">
+            <p className="font-open-sans text-grey-dark w-[253px] text-[13px] leading-[18px]">
               {AT_YOUR_TABLE_DESC}
             </p>
           </div>
@@ -198,7 +198,7 @@ function MobileJourney() {
             <p className="font-helvetica text-grey text-[15px] whitespace-nowrap">
               Beyond Your Table
             </p>
-            <p className="font-open-sans text-grey-dark w-full text-[12px] leading-[18px]">
+            <p className="font-open-sans text-grey-dark w-full text-[13px] leading-[18px]">
               Your registration also fuels{" "}
               <span className="font-bold">Ignite Outreach Missions</span>,
               supporting undeserved women and children across Nigeria through

@@ -281,7 +281,7 @@ function MobilePlace() {
                   aria-expanded={false}
                   className="flex items-center gap-[4px]"
                 >
-                  <span className="font-open-sans text-[12px] font-semibold text-[#3c424c]">
+                  <span className="font-open-sans text-[13px] font-semibold text-[#3c424c]">
                     See more
                   </span>
                   <ChevronDownIcon className="size-[24px]" />

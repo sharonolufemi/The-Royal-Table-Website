@@ -356,7 +356,7 @@ function MobileFooter() {
       </div>
 
       <div className="flex w-full items-start border-t border-[rgba(236,214,241,0.5)] pt-[16px]">
-        <p className="font-open-sans text-gold-10 flex-1 text-[12px] leading-[1.4]">
+        <p className="font-open-sans text-gold-10 flex-1 text-[13px] leading-[1.4]">
           {COPYRIGHT}
         </p>
       </div>
