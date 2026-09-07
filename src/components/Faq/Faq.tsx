@@ -411,7 +411,7 @@ function MobileFaq() {
 export default function Faq() {
   return (
     <FadeInSection>
-      <section id="faq" className="w-full bg-grey-5">
+      <section id="faq" className="w-full bg-white">
         <div className="mx-auto max-w-[1512px]">
           <WebFaq />
           <TabletFaq />

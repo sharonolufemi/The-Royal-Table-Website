@@ -10,8 +10,8 @@ import Place from "../components/Place/Place";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full bg-grey-5">
-      <NavBar />
+    <div className="min-h-screen w-full bg-white">
+      <NavBar bgClassName="bg-grey-5" />
       <Hero />
       <IntroPoints />
       <Mentorship />

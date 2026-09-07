@@ -240,7 +240,7 @@ function MobileMentorship() {
 export default function Mentorship() {
   return (
     <FadeInSection>
-      <section className="w-full bg-grey-5">
+      <section className="w-full bg-white">
         <div className="mx-auto max-w-[1512px] px-[20px] py-[32px] md:px-[40px] md:py-[80px] lg:px-[60px] lg:py-[48px]">
           <WebMentorship />
           <TabletMentorship />

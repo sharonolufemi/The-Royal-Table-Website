@@ -4,7 +4,7 @@ import ReserveButton from "../ReserveButton";
 
 export default function Hero() {
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="bg-grey-5 relative w-full overflow-hidden">
       <div className="relative mx-auto max-w-[1512px] px-[20px] md:px-[40px] md:py-[80px] lg:pt-[16px] lg:pr-[61px] lg:pb-[30px] lg:pl-[60px]">
         <div className="relative flex min-h-[480px] w-full items-center justify-center overflow-hidden rounded-[6px] md:min-h-[600px] md:items-start md:rounded-[12px] lg:h-[774px] lg:rounded-[16px]">
           <img

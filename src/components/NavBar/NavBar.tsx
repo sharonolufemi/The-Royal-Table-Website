@@ -45,7 +45,11 @@ function NavLinkItem({
   );
 }
 
-export default function NavBar() {
+export default function NavBar({
+  bgClassName = "bg-white",
+}: {
+  bgClassName?: string;
+}) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { pathname } = useLocation();
 
@@ -65,7 +69,9 @@ export default function NavBar() {
   }, [isMenuOpen]);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-[rgba(236,214,241,0.5)] bg-white">
+    <header
+      className={`sticky top-0 z-50 w-full border-b border-[rgba(236,214,241,0.5)] ${bgClassName}`}
+    >
       <div className="mx-auto flex max-w-[1512px] items-center justify-between px-[20px] py-[32px] md:px-[40px] md:py-[21px] lg:px-[60px]">
         <Link
           to="/"
