@@ -37,6 +37,16 @@ const HEADLINE_PART_2_ITALIC = "weight of the win";
 const HEADLINE_PART_2_TAIL = "feels heavy.";
 const HEADLINE_PART_3 = "You’re looking for:";
 
+function OrnamentalDivider() {
+  return (
+    <div className="flex w-full items-center gap-[12px] px-[20px] pt-[8px] md:gap-[16px] md:px-[40px] lg:gap-[20px] lg:px-[60px] lg:pt-[12px]">
+      <span className="h-px flex-1 bg-gradient-to-r from-transparent to-main-gold/60" />
+      <span className="border-main-gold size-[7px] shrink-0 rotate-45 border" />
+      <span className="h-px flex-1 bg-gradient-to-l from-transparent to-main-gold/60" />
+    </div>
+  );
+}
+
 function SectionHeader({
   wrapperClassName,
   kickerClassName,
@@ -143,6 +153,8 @@ export default function IntroPoints() {
     <FadeInSection>
       <section className="bg-grey-5 w-full">
         <div className="mx-auto max-w-[1512px]">
+          <OrnamentalDivider />
+
           {/* Web */}
           <div className="hidden lg:block">
             <SectionHeader
