@@ -344,7 +344,7 @@ function MobilePlace() {
 export default function Place() {
   return (
     <FadeInSection>
-      <section className="w-full bg-white">
+      <section className="w-full bg-grey-5">
         <div className="mx-auto max-w-[1512px] px-[20px] py-[48px] md:px-[40px] md:py-[80px] lg:py-[64px] lg:pr-[61px] lg:pl-[60px]">
           <WebPlace />
           <TabletPlace />
