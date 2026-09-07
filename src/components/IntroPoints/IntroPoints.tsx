@@ -141,7 +141,7 @@ function StackedList({
 export default function IntroPoints() {
   return (
     <FadeInSection>
-      <section className="bg-[#f5e7d4] w-full">
+      <section className="bg-[#fdf3e5] w-full">
         <div className="mx-auto max-w-[1512px]">
           {/* Web */}
           <div className="hidden lg:block">
