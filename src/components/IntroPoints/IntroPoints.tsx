@@ -29,11 +29,6 @@ const POINTS: Point[] = [
     description:
       "Where you're seen. Known. Challenged. Celebrated. Held accountable. Prayed for.",
   },
-  {
-    number: "05",
-    title: "A Seat at The Royal Table",
-    description: null,
-  },
 ];
 
 const KICKER = "Leading Alone is Exhausting";
@@ -75,7 +70,7 @@ function SectionHeader({
  */
 function WebGrid() {
   return (
-    <div className="hidden grid-cols-5 gap-[32px] px-[60px] pb-[89px] lg:grid">
+    <div className="hidden grid-cols-4 gap-[40px] px-[60px] pb-[89px] lg:grid">
       {POINTS.map((point, i) => (
         <div
           key={point.number}
