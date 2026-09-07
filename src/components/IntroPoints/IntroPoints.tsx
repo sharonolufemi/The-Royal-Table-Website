@@ -37,14 +37,6 @@ const HEADLINE_PART_2_ITALIC = "weight of the win";
 const HEADLINE_PART_2_TAIL = "feels heavy.";
 const HEADLINE_PART_3 = "You’re looking for:";
 
-function SectionDivider() {
-  return (
-    <div className="w-full px-[20px] pt-[24px] pb-[16px] md:px-[40px] md:pt-[32px] md:pb-[24px] lg:px-[60px] lg:pt-[32px] lg:pb-[24px]">
-      <div className="bg-main-gold/25 h-px w-full" />
-    </div>
-  );
-}
-
 function SectionHeader({
   wrapperClassName,
   kickerClassName,
@@ -149,14 +141,12 @@ function StackedList({
 export default function IntroPoints() {
   return (
     <FadeInSection>
-      <section className="bg-grey-5 w-full">
+      <section className="bg-[#f5e7d4] w-full">
         <div className="mx-auto max-w-[1512px]">
-          <SectionDivider />
-
           {/* Web */}
           <div className="hidden lg:block">
             <SectionHeader
-              wrapperClassName="flex flex-col items-start gap-[16px] px-[60px] pb-[46px]"
+              wrapperClassName="flex flex-col items-start gap-[16px] px-[60px] pt-[49px] pb-[46px]"
               kickerClassName="font-open-sans text-wine text-[13px] font-semibold whitespace-nowrap uppercase"
               headlineClassName="font-helvetica text-[#3c424c] max-w-[900px] text-[35px] leading-[1.3] font-medium"
               breakBeforeWeight
@@ -167,7 +157,7 @@ export default function IntroPoints() {
           {/* Tablet */}
           <div className="hidden md:block lg:hidden">
             <SectionHeader
-              wrapperClassName="flex flex-col items-start gap-[12px] px-[40px] pb-[36px]"
+              wrapperClassName="flex flex-col items-start gap-[12px] px-[40px] pt-[56px] pb-[36px]"
               kickerClassName="font-open-sans text-wine text-[13px] font-semibold whitespace-nowrap uppercase"
               headlineClassName="font-helvetica text-[#3c424c] text-[32px] leading-[1.3] font-medium"
               breakBeforeWeight
@@ -184,7 +174,7 @@ export default function IntroPoints() {
           {/* Mobile */}
           <div className="md:hidden">
             <SectionHeader
-              wrapperClassName="flex flex-col items-start gap-[10px] px-[20px] pb-[28px]"
+              wrapperClassName="flex flex-col items-start gap-[10px] px-[20px] pt-[40px] pb-[28px]"
               kickerClassName="font-open-sans text-wine text-[13px] font-semibold whitespace-nowrap uppercase"
               headlineClassName="font-helvetica text-[#3c424c] text-[24px] leading-[1.3] font-medium"
             />
